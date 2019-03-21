@@ -1,0 +1,3 @@
+/home/tootoot/CLionProjects/garbageCollector/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tootoot/CLionProjects/garbageCollector/cmake-build-debug/CMakeFiles/garbageCollector.dir
+/home/tootoot/CLionProjects/garbageCollector/cmake-build-debug/CMakeFiles/edit_cache.dir
