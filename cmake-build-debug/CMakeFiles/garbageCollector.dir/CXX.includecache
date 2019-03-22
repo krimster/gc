@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tootoot/CLionProjects/garbageCollector/SimpleTest3.cpp
+iostream
+-
+new
+-
+gc.h
+/home/tootoot/CLionProjects/garbageCollector/gc.h
+
+/home/tootoot/CLionProjects/garbageCollector/gc.h
+iostream
+-
+list
+-
+typeinfo
+-
+cstdlib
+-
+

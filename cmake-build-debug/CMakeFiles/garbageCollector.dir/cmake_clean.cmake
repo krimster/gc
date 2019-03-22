@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/garbageCollector.dir/main.cpp.o"
+  "CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.o"
   "garbageCollector.pdb"
   "garbageCollector"
 )

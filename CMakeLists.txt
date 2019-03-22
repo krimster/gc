@@ -3,4 +3,7 @@ project(garbageCollector)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(garbageCollector main.cpp gc.h)
+add_executable(garbageCollector
+        #SimpleTest1.cpp
+        #SimpleTest2.cpp
+        SimpleTest3.cpp)

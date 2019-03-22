@@ -13,7 +13,7 @@
 using namespace std;
 
 // To watch the action of the garbage collector, define DISPLAY.
-//#define DISPLAY
+#define DISPLAY
 
 // Exception thrown when an attempt is made to use an Iter that
 // exceeds the range if the underlying object
@@ -159,7 +159,7 @@ template <class T> class GCInfo {
 
 public:
 
-    unsigned refCount; // current reference count
+    unsigned refcount; // current reference count
 
     T *memPtr; // Pointer to the allocated memory
 
@@ -175,7 +175,7 @@ public:
     // Of this is an array, then size specifies
     // the size of the array
     GCInfo(T *mPtr, unsigned size = 0) {
-        refCount = 1;
+        refcount = 1;
         memPtr = mPtr;
         isArray = size != 0;
         arraySize = size;
@@ -226,10 +226,10 @@ public:
 
         p = findPtrInfo(t);
 
-        // if t is already i gclist, then increment its reference count.
+        // if t is already in gclist, then increment its reference count.
         // Otherwise, add it to the list
         if (p != gclist.end()) {
-            p->refCount++; // increment ref count
+            p->refcount++; // increment ref count
         } else {
             // Create and store this entry
             GCInfo<T> gcObj(t, size);
@@ -254,7 +254,7 @@ public:
     // Copy constructor
     GCPtr(const GCPtr &ob) {
 
-        typename list<GCPtr<T>>::iterator p;
+        typename list<GCInfo<T>>::iterator p;
 
         p = findPtrInfo(ob.addr);
         p->refcount++; // increment ref count
@@ -353,7 +353,7 @@ public:
         typename list<GCInfo<T>>::iterator p;
 
         p = findPtrInfo(addr);
-        if (p->refcount) p->recount--; // decrement red count
+        if (p->refcount) p->refcount--; // decrement red count
 
         #ifdef DISPLAY
             cout << "GCPtr pointer out of scope.\n";
@@ -433,14 +433,14 @@ public:
         // First, decrement the reference count
         // for the memory currently being pointed to
         p = findPtrInfo(addr);
-        p->recount--;
+        p->refcount--;
 
         // Next, if te new address is already existent in the system,
         // increment its count. Otherwise, create a new entry for gclist
         p = findPtrInfo(t);
         if (p != gclist.end()) {
 
-            p->recount++;
+            p->refcount++;
         } else {
 
             // Create and store this entry
@@ -466,7 +466,7 @@ public:
 
         // Next, increment the reference count of the new address
         p = findPtrInfo(rv.addr);
-        p->recount++; // increment the count
+        p->refcount++; // increment the count
 
         addr = rv.addr; // store the address.
 
@@ -488,7 +488,7 @@ public:
             return;
         }
 
-        for (p = gclist.beging(); p != gclist.end(); p++) {
+        for (p = gclist.begin(); p != gclist.end(); p++) {
 
             cout << " [" << (void *)p->memPtr << "]"
             << "        " << p->refcount << "       ";
@@ -542,35 +542,5 @@ public:
             << typeid(T).name() << "\n";
         #endif
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #endif //GARBAGECOLLECTOR_GC_H

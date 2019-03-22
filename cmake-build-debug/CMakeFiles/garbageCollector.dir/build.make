@@ -57,27 +57,27 @@ include CMakeFiles/garbageCollector.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/garbageCollector.dir/flags.make
 
-CMakeFiles/garbageCollector.dir/main.cpp.o: CMakeFiles/garbageCollector.dir/flags.make
-CMakeFiles/garbageCollector.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tootoot/CLionProjects/garbageCollector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/garbageCollector.dir/main.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/garbageCollector.dir/main.cpp.o -c /home/tootoot/CLionProjects/garbageCollector/main.cpp
+CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.o: CMakeFiles/garbageCollector.dir/flags.make
+CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.o: ../SimpleTest3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tootoot/CLionProjects/garbageCollector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.o -c /home/tootoot/CLionProjects/garbageCollector/SimpleTest3.cpp
 
-CMakeFiles/garbageCollector.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/garbageCollector.dir/main.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tootoot/CLionProjects/garbageCollector/main.cpp > CMakeFiles/garbageCollector.dir/main.cpp.i
+CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.i"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tootoot/CLionProjects/garbageCollector/SimpleTest3.cpp > CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.i
 
-CMakeFiles/garbageCollector.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/garbageCollector.dir/main.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tootoot/CLionProjects/garbageCollector/main.cpp -o CMakeFiles/garbageCollector.dir/main.cpp.s
+CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.s"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tootoot/CLionProjects/garbageCollector/SimpleTest3.cpp -o CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.s
 
 # Object files for target garbageCollector
 garbageCollector_OBJECTS = \
-"CMakeFiles/garbageCollector.dir/main.cpp.o"
+"CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.o"
 
 # External object files for target garbageCollector
 garbageCollector_EXTERNAL_OBJECTS =
 
-garbageCollector: CMakeFiles/garbageCollector.dir/main.cpp.o
+garbageCollector: CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.o
 garbageCollector: CMakeFiles/garbageCollector.dir/build.make
 garbageCollector: CMakeFiles/garbageCollector.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tootoot/CLionProjects/garbageCollector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable garbageCollector"

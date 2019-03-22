@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tootoot/CLionProjects/garbageCollector/main.cpp" "/home/tootoot/CLionProjects/garbageCollector/cmake-build-debug/CMakeFiles/garbageCollector.dir/main.cpp.o"
+  "/home/tootoot/CLionProjects/garbageCollector/SimpleTest3.cpp" "/home/tootoot/CLionProjects/garbageCollector/cmake-build-debug/CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

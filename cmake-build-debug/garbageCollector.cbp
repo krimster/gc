@@ -84,10 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tootoot/CLionProjects/garbageCollector/gc.h">
-			<Option target="garbageCollector"/>
-		</Unit>
-		<Unit filename="/home/tootoot/CLionProjects/garbageCollector/main.cpp">
+		<Unit filename="/home/tootoot/CLionProjects/garbageCollector/SimpleTest3.cpp">
 			<Option target="garbageCollector"/>
 		</Unit>
 		<Unit filename="/home/tootoot/CLionProjects/garbageCollector/CMakeLists.txt">
