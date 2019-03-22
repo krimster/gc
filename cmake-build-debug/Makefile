@@ -123,32 +123,32 @@ garbageCollector/fast:
 	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/build
 .PHONY : garbageCollector/fast
 
-SimpleTest3.o: SimpleTest3.cpp.o
+TestIterator.o: TestIterator.cpp.o
 
-.PHONY : SimpleTest3.o
+.PHONY : TestIterator.o
 
 # target to build an object file
-SimpleTest3.cpp.o:
-	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.o
-.PHONY : SimpleTest3.cpp.o
+TestIterator.cpp.o:
+	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/TestIterator.cpp.o
+.PHONY : TestIterator.cpp.o
 
-SimpleTest3.i: SimpleTest3.cpp.i
+TestIterator.i: TestIterator.cpp.i
 
-.PHONY : SimpleTest3.i
+.PHONY : TestIterator.i
 
 # target to preprocess a source file
-SimpleTest3.cpp.i:
-	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.i
-.PHONY : SimpleTest3.cpp.i
+TestIterator.cpp.i:
+	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/TestIterator.cpp.i
+.PHONY : TestIterator.cpp.i
 
-SimpleTest3.s: SimpleTest3.cpp.s
+TestIterator.s: TestIterator.cpp.s
 
-.PHONY : SimpleTest3.s
+.PHONY : TestIterator.s
 
 # target to generate assembly for a file
-SimpleTest3.cpp.s:
-	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/SimpleTest3.cpp.s
-.PHONY : SimpleTest3.cpp.s
+TestIterator.cpp.s:
+	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/TestIterator.cpp.s
+.PHONY : TestIterator.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... garbageCollector"
 	@echo "... edit_cache"
-	@echo "... SimpleTest3.o"
-	@echo "... SimpleTest3.i"
-	@echo "... SimpleTest3.s"
+	@echo "... TestIterator.o"
+	@echo "... TestIterator.i"
+	@echo "... TestIterator.s"
 .PHONY : help
 
 

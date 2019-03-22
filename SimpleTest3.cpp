@@ -15,10 +15,10 @@ int main() {
         // demonstration purposes
         GCPtr<int>::collect();
 
-        cout << "*p: " << *p << endl;
+        std::cout << "*p: " << *p << endl;
 
     } catch (bad_alloc exc) {
-        cout << "Allocation failure!\n";
+        std::cout << "Allocation failure!\n";
         return 1;
     }
     return 0;

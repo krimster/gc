@@ -12,28 +12,27 @@ int main() {
         p = new int(10);
         q = new int(11);
 
-        cout << "Value at p is: " << *p << endl;
-        cout << "Value at q is: " << *q << endl;
+        std::cout << "Value at p is: " << *p << endl;
+        std::cout << "Value at q is: " << *q << endl;
 
-        cout << "Before entering block. \n";
+        std::cout << "Before entering block. \n";
 
         // Now create a local object
         { // start block
 
-            GCPtr<int> r;
-            r = new int(12);
-            cout << "Value at r is: " << *r << endl;
+            GCPtr<int> r = new int(12);
+            std::cout << "Value at r is: " << *r << endl;
         } // end the block causing r to go out of scope
 
-        cout << "After exiting block.\n";
+        std::cout << "After exiting block.\n";
 
 
     } catch (bad_alloc exc) {
-        cout << "Allocation failure!\n";
+        std::cout << "Allocation failure!\n";
         return 1;
     }
 
-    cout << "Done\n";
+    std::cout << "Done\n";
 
     return 0;
 }

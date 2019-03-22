@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tootoot/CLionProjects/garbageCollector/SimpleTest3.cpp
+/home/tootoot/CLionProjects/garbageCollector/TestIterator.cpp
 iostream
 -
 new

@@ -3,7 +3,6 @@
 #include "gc.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
 
     GCPtr<int> p;
 
@@ -15,11 +14,11 @@ int main() {
 
     *p = 88;
 
-    cout << "Value at p is: " << *p << endl;
+    std::cout << "Value at p is: " << *p << endl;
 
     int k  = *p;
 
-    cout << "k is " << k << endl;
+    std::cout << "k is " << k << endl;
 
     return 0;
 }

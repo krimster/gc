@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD 11)
 add_executable(garbageCollector
         #SimpleTest1.cpp
         #SimpleTest2.cpp
-        SimpleTest3.cpp)
+        #SimpleTest3.cpp
+        #TestArray.cpp
+        TestIterator.cpp)
