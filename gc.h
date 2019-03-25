@@ -13,7 +13,7 @@
 using namespace std;
 
 // To watch the action of the garbage collector, define DISPLAY.
-#define DISPLAY
+//#define DISPLAY
 
 // Exception thrown when an attempt is made to use an Iter that
 // exceeds the range if the underlying object

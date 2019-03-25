@@ -57,27 +57,27 @@ include CMakeFiles/garbageCollector.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/garbageCollector.dir/flags.make
 
-CMakeFiles/garbageCollector.dir/TestIterator.cpp.o: CMakeFiles/garbageCollector.dir/flags.make
-CMakeFiles/garbageCollector.dir/TestIterator.cpp.o: ../TestIterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tootoot/CLionProjects/garbageCollector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/garbageCollector.dir/TestIterator.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/garbageCollector.dir/TestIterator.cpp.o -c /home/tootoot/CLionProjects/garbageCollector/TestIterator.cpp
+CMakeFiles/garbageCollector.dir/TestComplete.cpp.o: CMakeFiles/garbageCollector.dir/flags.make
+CMakeFiles/garbageCollector.dir/TestComplete.cpp.o: ../TestComplete.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tootoot/CLionProjects/garbageCollector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/garbageCollector.dir/TestComplete.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/garbageCollector.dir/TestComplete.cpp.o -c /home/tootoot/CLionProjects/garbageCollector/TestComplete.cpp
 
-CMakeFiles/garbageCollector.dir/TestIterator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/garbageCollector.dir/TestIterator.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tootoot/CLionProjects/garbageCollector/TestIterator.cpp > CMakeFiles/garbageCollector.dir/TestIterator.cpp.i
+CMakeFiles/garbageCollector.dir/TestComplete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/garbageCollector.dir/TestComplete.cpp.i"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tootoot/CLionProjects/garbageCollector/TestComplete.cpp > CMakeFiles/garbageCollector.dir/TestComplete.cpp.i
 
-CMakeFiles/garbageCollector.dir/TestIterator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/garbageCollector.dir/TestIterator.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tootoot/CLionProjects/garbageCollector/TestIterator.cpp -o CMakeFiles/garbageCollector.dir/TestIterator.cpp.s
+CMakeFiles/garbageCollector.dir/TestComplete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/garbageCollector.dir/TestComplete.cpp.s"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tootoot/CLionProjects/garbageCollector/TestComplete.cpp -o CMakeFiles/garbageCollector.dir/TestComplete.cpp.s
 
 # Object files for target garbageCollector
 garbageCollector_OBJECTS = \
-"CMakeFiles/garbageCollector.dir/TestIterator.cpp.o"
+"CMakeFiles/garbageCollector.dir/TestComplete.cpp.o"
 
 # External object files for target garbageCollector
 garbageCollector_EXTERNAL_OBJECTS =
 
-garbageCollector: CMakeFiles/garbageCollector.dir/TestIterator.cpp.o
+garbageCollector: CMakeFiles/garbageCollector.dir/TestComplete.cpp.o
 garbageCollector: CMakeFiles/garbageCollector.dir/build.make
 garbageCollector: CMakeFiles/garbageCollector.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tootoot/CLionProjects/garbageCollector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable garbageCollector"

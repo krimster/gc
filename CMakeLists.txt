@@ -8,4 +8,6 @@ add_executable(garbageCollector
         #SimpleTest2.cpp
         #SimpleTest3.cpp
         #TestArray.cpp
-        TestIterator.cpp)
+        #TestIterator.cpp
+        #TestClassType.cpp
+        TestComplete.cpp)

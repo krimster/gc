@@ -1,1 +1,1 @@
-/usr/bin/g++-7  -g   CMakeFiles/garbageCollector.dir/TestIterator.cpp.o  -o garbageCollector 
+/usr/bin/g++-7  -g   CMakeFiles/garbageCollector.dir/TestComplete.cpp.o  -o garbageCollector 

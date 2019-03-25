@@ -123,32 +123,32 @@ garbageCollector/fast:
 	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/build
 .PHONY : garbageCollector/fast
 
-TestIterator.o: TestIterator.cpp.o
+TestComplete.o: TestComplete.cpp.o
 
-.PHONY : TestIterator.o
+.PHONY : TestComplete.o
 
 # target to build an object file
-TestIterator.cpp.o:
-	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/TestIterator.cpp.o
-.PHONY : TestIterator.cpp.o
+TestComplete.cpp.o:
+	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/TestComplete.cpp.o
+.PHONY : TestComplete.cpp.o
 
-TestIterator.i: TestIterator.cpp.i
+TestComplete.i: TestComplete.cpp.i
 
-.PHONY : TestIterator.i
+.PHONY : TestComplete.i
 
 # target to preprocess a source file
-TestIterator.cpp.i:
-	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/TestIterator.cpp.i
-.PHONY : TestIterator.cpp.i
+TestComplete.cpp.i:
+	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/TestComplete.cpp.i
+.PHONY : TestComplete.cpp.i
 
-TestIterator.s: TestIterator.cpp.s
+TestComplete.s: TestComplete.cpp.s
 
-.PHONY : TestIterator.s
+.PHONY : TestComplete.s
 
 # target to generate assembly for a file
-TestIterator.cpp.s:
-	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/TestIterator.cpp.s
-.PHONY : TestIterator.cpp.s
+TestComplete.cpp.s:
+	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/TestComplete.cpp.s
+.PHONY : TestComplete.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... garbageCollector"
 	@echo "... edit_cache"
-	@echo "... TestIterator.o"
-	@echo "... TestIterator.i"
-	@echo "... TestIterator.s"
+	@echo "... TestComplete.o"
+	@echo "... TestComplete.i"
+	@echo "... TestComplete.s"
 .PHONY : help
 
 
