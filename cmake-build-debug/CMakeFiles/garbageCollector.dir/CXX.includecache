@@ -6,10 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/tootoot/CLionProjects/garbageCollector/TestComplete.cpp
+/home/tootoot/CLionProjects/garbageCollector/LoadTesting.cpp
 iostream
 -
 new
+-
+limits
 -
 gc.h
 /home/tootoot/CLionProjects/garbageCollector/gc.h

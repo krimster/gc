@@ -10,4 +10,5 @@ add_executable(garbageCollector
         #TestArray.cpp
         #TestIterator.cpp
         #TestClassType.cpp
-        TestComplete.cpp)
+        #TestComplete.cpp
+        LoadTesting.cpp)

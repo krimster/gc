@@ -123,32 +123,32 @@ garbageCollector/fast:
 	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/build
 .PHONY : garbageCollector/fast
 
-TestComplete.o: TestComplete.cpp.o
+LoadTesting.o: LoadTesting.cpp.o
 
-.PHONY : TestComplete.o
+.PHONY : LoadTesting.o
 
 # target to build an object file
-TestComplete.cpp.o:
-	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/TestComplete.cpp.o
-.PHONY : TestComplete.cpp.o
+LoadTesting.cpp.o:
+	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/LoadTesting.cpp.o
+.PHONY : LoadTesting.cpp.o
 
-TestComplete.i: TestComplete.cpp.i
+LoadTesting.i: LoadTesting.cpp.i
 
-.PHONY : TestComplete.i
+.PHONY : LoadTesting.i
 
 # target to preprocess a source file
-TestComplete.cpp.i:
-	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/TestComplete.cpp.i
-.PHONY : TestComplete.cpp.i
+LoadTesting.cpp.i:
+	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/LoadTesting.cpp.i
+.PHONY : LoadTesting.cpp.i
 
-TestComplete.s: TestComplete.cpp.s
+LoadTesting.s: LoadTesting.cpp.s
 
-.PHONY : TestComplete.s
+.PHONY : LoadTesting.s
 
 # target to generate assembly for a file
-TestComplete.cpp.s:
-	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/TestComplete.cpp.s
-.PHONY : TestComplete.cpp.s
+LoadTesting.cpp.s:
+	$(MAKE) -f CMakeFiles/garbageCollector.dir/build.make CMakeFiles/garbageCollector.dir/LoadTesting.cpp.s
+.PHONY : LoadTesting.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... garbageCollector"
 	@echo "... edit_cache"
-	@echo "... TestComplete.o"
-	@echo "... TestComplete.i"
-	@echo "... TestComplete.s"
+	@echo "... LoadTesting.o"
+	@echo "... LoadTesting.i"
+	@echo "... LoadTesting.s"
 .PHONY : help
 
 

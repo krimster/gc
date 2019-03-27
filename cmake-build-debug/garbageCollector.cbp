@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tootoot/CLionProjects/garbageCollector/TestComplete.cpp">
+		<Unit filename="/home/tootoot/CLionProjects/garbageCollector/LoadTesting.cpp">
 			<Option target="garbageCollector"/>
 		</Unit>
 		<Unit filename="/home/tootoot/CLionProjects/garbageCollector/CMakeLists.txt">
